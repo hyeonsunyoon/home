@@ -6,7 +6,7 @@ let middleCurrentImage
 let bottomCurrentImage
 
 async function setup() {
-  createCanvas(windowWidth, windowHeight);
+  createCanvas(200, 250);
 
   images[0] = await loadImage('image1.jpg')
   images[1] = await loadImage('image2.jpg')
