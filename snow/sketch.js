@@ -60,3 +60,7 @@ function mousePressed() {
 function doubleClicked() {
   stack = 0;
 }
+
+function windowResized() {
+    resizeCanvas(windowWidth, windowHeight)
+}
