@@ -54,7 +54,7 @@ function mousePressed() {
     stack -= 10
   }
   textAlign(CENTER)
-  text('눈을 치웠습니다.', width / 2, height / 2)
+  text('cleared the snow', width / 2, height / 2)
 }
 
 function doubleClicked() {
